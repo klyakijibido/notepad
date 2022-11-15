@@ -10,6 +10,7 @@ choices = Post.post_types
 
 choice = -1
 
+
 until choice.between?(1, choices.size)
   choices.each.with_index(1) { |type, i| puts "\t#{i}. #{type}"}
 
